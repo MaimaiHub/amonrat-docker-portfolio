@@ -14,7 +14,8 @@ Browser → Docker Container → Nginx → Static HTML
 
 ## Run
 ```bash
-docker run -d -p 8080:80 -v $(pwd):/usr/share/nginx/html nginx
+docker run -d -p 8080:80 -v $(pwd):/usr/share/nginx/html nginx 
+```
 Open:
 http://localhost:8080
 
