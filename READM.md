@@ -13,9 +13,8 @@ Browser → Docker Container → Nginx → Static HTML
 - Live reload when editing index.html
 
 ## Run
-'''bash
+```bash
 docker run -d -p 8080:80 -v $(pwd):/usr/share/nginx/html nginx
-'''
 Open:
 http://localhost:8080
 
@@ -24,6 +23,9 @@ http://localhost:8080
 ![Portfolio](screenshot.png)
 
 ## Tech
-- HTML
+- HTML / CSS / JavaScript
 - Docker
 - Nginx
+- Git & GitHub
+- Containerized Deployment
+- Volume Mounting 
