@@ -6,11 +6,11 @@ This project demonstrates deploying a static HTML portfolio using Docker and Ngi
 Browser → Docker Container → Nginx → Static HTML
 
 ## Features
-Static HTML portfolio
-Docker container deployment
-Nginx web server
-Volume mounting (development)
-Docker image build (production)
+- Static HTML portfolio
+- Docker container deployment
+- Nginx web server
+- Volume mounting (development)
+- Docker image build (production)
 
 ## Run (Build Image - Production)
 
@@ -30,9 +30,9 @@ Open: http://localhost:8080
 ![Portfolio](screenshot.png)
 
 ## Tech
--HTML / CSS / JavaScript
--Docker
--Nginx
--Git & GitHub
--Containerized Deployment
--Volume Mounting
+- HTML / CSS / JavaScript
+- Docker
+- Nginx
+- Git & GitHub
+- Containerized Deployment
+- Volume Mounting
